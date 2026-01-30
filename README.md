@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/object-inverse-by/tags). For example,
+
+```javascript
 import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@v0.1.0-deno/mod.js';
 ```
 
@@ -159,7 +164,7 @@ var out = invertBy( obj, transform );
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@v0.1.0-deno/mod.js';
+import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@deno/mod.js';
 
 function transform( key, value ) {
     return value;
