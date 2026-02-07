@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@esm/index.mjs';
+import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@v0.1.1-esm/index.mjs';
 ```
 
 #### invertBy( obj, \[options,] transform )
@@ -164,7 +164,7 @@ var out = invertBy( obj, transform );
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@esm/index.mjs';
+import invertBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse-by@v0.1.1-esm/index.mjs';
 
 function transform( key, value ) {
     return value;
